@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+}
+
+.third-width {
+  width: 400px;
+  text-align: center;
+}
+
+.third-width p {
+  width: 60%;
+  text-align: center;
+  margin: 30px auto;
+}
+
+/***** BASE STYLES *****/
+
+body {
+  font-family: "Karla";
+}
+
+h1 {
+  font-family: "Lato";
+}
+
+h2 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  margin: 35px 50px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  text-align: center;
+  margin: 30px;
+}
+
+p {
+  margin: 50px;
+}
+
+a {
+  color: inherit;
+}
+
+.center {
+  width: 50%;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 400px;
+  background: url('../img/br-2.jpg');
+  background-size: cover;
+}
+
+#header-text {
+  color: #bcbdc0;
+  -webkit-text-stroke: 1px #565857;
+  padding: 70px 30px;
+  font-size: 28px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  padding: 20px 0;
+}
+
+#about img {
+  border: 2px solid #565857;
+  margin: auto 166px;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+.about-flex {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+/***** SKILLS *****/
+
+#skills {
+  padding: 20px 0;
+}
+
+#skills img {
+  border: 2px solid #565857;
+  border-radius: 100px;
+}
+
+.skills-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+/***** WORK *****/
+
+#work {
+  padding: 20px 0;
+  background-color: #734b5e;
+}
+
+#work img {
+  border: 2px solid #565857;
+}
+
+.work-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  padding: 20px 0;
+}
+
+#contact p {
+  margin: 30px 50px;
+  font-size: 25px;
+}
+
+#contact img {
+  margin: auto 25px;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
